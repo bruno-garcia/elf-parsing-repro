@@ -7,7 +7,7 @@
 
   <ItemGroup>
     <!--    <PackageReference Include="LibObjectFile" Version="0.3.1" />-->
-    <ProjectReference Include="..\..\..\git\LibObjectFile\src\LibObjectFile\LibObjectFile.csproj" />
+<!--    <ProjectReference Include="..\..\..\git\LibObjectFile\src\LibObjectFile\LibObjectFile.csproj" />-->
     <ProjectReference Include="..\ClassLib\ClassLib.csproj" />
   </ItemGroup>
 
@@ -15,8 +15,4 @@
     <None Include="$(ProjectDir)Files\**" CopyToOutputDirectory="PreserveNewest" LinkBase="Files\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ELFSharp" Version="2.2.1" />
-  </ItemGroup>
-  
 </Project>

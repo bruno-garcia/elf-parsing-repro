@@ -1,3 +1,5 @@
+# LibObjectFile 0.3.3 fixed all issues from this repro
+
 # Repro LibObjectFile
 
 Files under the directory `Files` came from an Android 10 emulator (x86).

@@ -1,16 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
-        <!--    <PackageReference Include="LibObjectFile" Version="0.3.1" />-->
-        <ProjectReference Include="..\..\..\git\LibObjectFile\src\LibObjectFile\LibObjectFile.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-        <PackageReference Include="ELFSharp" Version="2.2.1" />
+            <PackageReference Include="LibObjectFile" Version="0.3.3" />
+        <!--    <PackageReference Include="ELFSharp" Version="2.2.1" />-->
+        <ProjectReference Include="..\..\..\git\elfsharp\ELFSharp\ELFSharp.csproj" />
+<!--        <ProjectReference Include="..\..\..\git\LibObjectFile\src\LibObjectFile\LibObjectFile.csproj" />-->
     </ItemGroup>
 
 </Project>
